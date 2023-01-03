@@ -165,6 +165,7 @@
 , "gtop"
 , "gulp"
 , "gulp-cli"
+, "hardhat"
 , "he"
 , "html-minifier"
 , "htmlhint"
