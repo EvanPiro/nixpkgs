@@ -572,6 +572,8 @@ with pkgs;
 
   r3ctl = qt5.callPackage ../tools/misc/r3ctl { };
 
+  signage = callPackage ../development/tools/signage { };
+
   ptouch-print = callPackage ../misc/ptouch-print { };
 
   demoit = callPackage ../servers/demoit { };
