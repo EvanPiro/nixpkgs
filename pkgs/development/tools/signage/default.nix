@@ -7,12 +7,12 @@ rustPlatform.buildRustPackage rec {
   src = fetchFromGitHub {
     owner = "EvanPiro";
     repo = pname;
-    rev = "d4358dbdfa7b67d4dd9d2741a33877bfd09a7138";
-    hash = "sha256-y+j0Id5qwsST0KuKEQteaWGR60sJm0WCIg13iBewqKM=";
+    rev = "2c376ff04888a05e96f8148f1da68252b8ad8422";
+    hash = "sha256-1nDymsdfFszkKh9QnW4MhlqxbHwgLGQCe8nweVADShY=";
   };
 
   # cargoSha256 = lib.fakeSha256;
-  cargoSha256 = "sha256-+s667FLR2YerzGk5iKLecr2cZh8O/fZy72QCtgHwyRc=";
+  cargoSha256 = "sha256-ihsEBjvD6wLNWv+l7y6FA9HQP8v/xpDcc9+NYy+Nfk8=";
 
   meta = with lib; {
     description = "Command-line tool built in rust";
